@@ -1,0 +1,19 @@
+.element{
+    border: 1px solid red;
+}
+
+.grid{
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: 50px 100px 50px;
+    grid-template-rows: 40px 20px 40px;
+}
+
+.grid2{
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: 50px 100px 50px;
+    grid-template-rows: 40px 20px 40px;
+    column-gap: 10px;
+    row-gap: 15px;
+}
