@@ -1,0 +1,37 @@
+.element{
+    width: 700px;
+    height:700px;
+    border: 2px solid red;
+}
+
+.bg-color{
+    background: blue;
+}
+
+.bg-image{
+    background: url(img/bg.png);
+}
+
+.bg-image-rx{
+    background: url(img/bg.png) repeat-x;
+}
+
+
+.bg-image-ry{
+    background: url(img/bg.png) repeat-y;
+}
+
+.bg-image-no-repeat{
+    background: url(img/bg.png) no-repeat;
+}
+
+.bg-image-size{
+    background: url(img/bg.png);
+    background-size: cover;
+}
+
+body{
+    background: url(img/bg.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
